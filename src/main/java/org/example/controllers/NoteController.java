@@ -1,5 +1,7 @@
-package org.example;
+package org.example.controllers;
 
+import org.example.mode.Note;
+import org.example.repository.NoteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
